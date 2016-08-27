@@ -1,0 +1,19 @@
+<?php
+require('db_info.php');
+
+try {
+    $conn = new PDO("mysql:host=$servername", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = "CREATE DATABASE $dbname";
+    // use exec() because no results are returned
+    $conn->exec($sql);
+	header('Location: table.php');
+    }
+catch(PDOException $e)
+    {
+    echo $sql . "<br>" . $e->getMessage();
+    }
+
+$conn = null;
+?>
