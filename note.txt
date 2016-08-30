@@ -6,4 +6,4 @@ classe : 1 = Chasseur / 2 = Titan / 3 = Arcaniste
 raid mode : 1 = Hard / 2 = Normal
 Activités : 1 = debut / 2 = glyphes / 3 = pretre / 4 = golgo / 5 = pretresse / 6 = oryx
 lumieres
-notAlone
+	//notAlone

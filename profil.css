@@ -1,0 +1,66 @@
+body {
+	background-color: #303841;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.page div {
+	text-align: center;
+}
+
+.title {
+	color: #eeeeee;
+	font-size: 80px;
+	font-family: 'Slabo 27px', serif;
+	margin-top: 100px;
+}
+
+.instructions {
+	margin: 30px;
+	font-size: 50px;
+	color: #eeeeee;
+}
+
+.formulaire {
+	background-color: #3a4750;
+	margin: 100px;
+	margin-top: -0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.formulaire {
+	color: white;
+}
+
+select {
+	background-color: #6f4f8b;
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.gametag input {
+	width: 200px;
+	color: white;
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+	background-color: #6f4f8b;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.submit input {
+	width: 200px;
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}

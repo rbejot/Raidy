@@ -1,0 +1,36 @@
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color: #303841;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.link {
+	font-size: 100px;
+	color: #eeeeee;
+	margin: auto;
+	margin-top: 200px;
+}
+
+.infos {
+	font-size: 50px;
+	color: #eeeeee;
+	margin: auto;
+}
+
+.infos a {
+	margin: 5px;
+	padding: 5px;
+	/*color: #D72323;*/
+	color: white;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	background-color: #3a4750;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
