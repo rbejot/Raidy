@@ -20,6 +20,12 @@ body {
 	margin-top: 100px;
 }
 
+.light_text {
+	background-color: #3a4750;
+	border-style: hidden;
+	color : white;
+}
+
 .instructions {
 	margin: 30px;
 	font-size: 50px;

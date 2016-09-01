@@ -1,5 +1,7 @@
 <?php
+    session_start();
 
+    unset($_SESSION['users']);
  ?>
 <html>
 	<head>
@@ -94,7 +96,7 @@
 					<br />
 					Ton niveau de lumière : <br />
 					<input type="range" name="lightLevel" min="280" max="335" onchange="updateTextInput(this.value);">
-					<input type="text" name="light" id="textInput" value="0">
+					<input class="light_text" type="text" name="light" id="textInput" value="0">
 				   <br /><br />
 					<div class="submit">
 						<input type="submit" name="submit" value="TAG!">

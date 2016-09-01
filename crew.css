@@ -1,4 +1,20 @@
 body {
+	color: #eeeeee;
 	font-family: 'Slabo 27px', serif;
-	/*background-color: #303841;*/
+	background-color: #303841;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.gif {
+	margin: auto;
 }
